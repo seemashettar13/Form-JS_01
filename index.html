@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="authour" value="Seema">
+    <meta name="keywrods" value="HTML,CSS,JS,Responsive,Student Registration Form,Semantic HTML">
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+   
+</head>
+
+<body>
+    <main class="firstmain">
+    <header>
+        <h1>Student Registration System</h1>
+ </header>
+ <section class="container">
+
+    <article class="formbox">
+        <h2>Register Here!</h2>
+<form class="form" action="">
+    
+      <label for="stdname">Student Name</label> 
+          <span id="name-error"></span>
+        <input type="text" id="stdname" placeholder="enter your name" value=""> 
+     
+    
+
+    <label for="stdid">Student ID</label> 
+    <span id="id-error"></span>
+    <input type="number" id="stdid" placeholder="enter your id number" value=""> 
+  
+ 
+    <label for="stdrlnbr">Roll Number</label> 
+    <span id="rollNumber-error"></span>
+    <input type="number" id="stdrlnbr" placeholder="enter your roll number" value=""> 
+  
+
+
+    <label for="stdemail">Student Email</label> 
+    <span id="email-error"></span>
+    <input type="email" id="stdemail" placeholder="enter your email id " value=""> 
+    
+
+    <label for="stdnbr">Contact Number</label> 
+    <span id="number-error"></span>
+    <input type="number" id="stdnbr" placeholder="enter your contact number" value=""> 
+   
+
+
+<button id="btn">Submit</button>
+<span id="btnSpan"></span>
+</form>
+ </article>
+
+ <article class="display">
+<table id="tables">
+   <thead>
+    <tr id="trow">
+        <th>Name</th>
+        <th>ID</th>
+        <th>Roll NO.</th>
+        <th>Email</th>
+        <th>Contact NO.</th>
+    </tr>
+   </thead>
+</table>
+ </article>
+
+ </section>
+ 
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
